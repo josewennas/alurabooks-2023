@@ -1,0 +1,10 @@
+:root{
+      --cordefundo:#EBECEE;
+}
+
+body{
+    background-color: var(--cordefundo);
+}
+h1{
+   background-color: aliceblue; 
+}
