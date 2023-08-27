@@ -8,7 +8,7 @@
 }
 
 .cabecalho{
-    
+
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -26,16 +26,36 @@
     padding: 1em;
 }
 
-
 .lista-menu{
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
 }
-
 
 /* Se o container botão estiver marcado(checado), 
 então o lista menu vai receber a propriedade display blok */
 .container-botao:checked~.lista-menu{
     display: block;
+}
+
+.lista-menu-titulo, .lista-menu-item{
+    background-color: var(--branco);
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.lista-menu-link{
+text-decoration: none;
+color: var(--azul-degrade);
+
+}
+
+.lista-menu-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.container-botao{
+    display: none;
 }
