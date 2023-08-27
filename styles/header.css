@@ -3,8 +3,26 @@
     height: 24px;
     background-image: url("../img/Menu.svg");
     display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .cabecalho{
+    
     background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-self:first baseline;
+
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.conatainer-imagem{
+    padding: 1em;
+}
+
+
