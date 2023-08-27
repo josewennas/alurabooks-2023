@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-self:first baseline;
+    position: relative;
 
 }
 
@@ -26,3 +27,15 @@
 }
 
 
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+
+/* Se o container botão estiver marcado(checado), 
+então o lista menu vai receber a propriedade display blok */
+.container-botao:checked~.lista-menu{
+    display: block;
+}
